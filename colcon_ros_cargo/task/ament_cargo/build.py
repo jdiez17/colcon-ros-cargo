@@ -86,7 +86,6 @@ class AmentCargoBuildTask(CargoBuildTask):
             '--',
             '--manifest-path', manifest_path,
             '--target-dir', args.build_base,
-            '--quiet'
         ] + cargo_args
 
     # Installation is done by cargo ament-build
